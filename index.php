@@ -15,13 +15,13 @@ else if ( $text == "1" ) {
   $response = "CON Select a State by Aphabet\n";
   $response .= "1. A\n";
   $response .= "2. B\n";
-  $response .= "3. C - D\n";
+  $response .= "3. C and D\n";
   $response .= "4. E\n";
-  $response .= "5. F - J\n";
+  $response .= "5. F,G,H,I and J\n";
   $response .= "6. K\n";
-  $response .= "7. L - N\n";
+  $response .= "7. L,M and N\n";
   $response .= "8. O\n";
-  $response .= "9. P - Z\n";
+  $response .= "9. P,R,S,T,Y and Z\n";
   
 }
  else if($text == "2") {
@@ -37,7 +37,7 @@ else if ( $text == "1" ) {
  }
  else if($text == "1*1") {
   // Show all states in A
-  $response = "CON Choose a state";
+  $response = "CON Choose a state\n";
   $response .= "1. Abia \n";
   $response .= "2. Adamawa\n";
   $response .= "3. Akwa Ibom\n";
@@ -154,6 +154,67 @@ else if ( $text == "1" ) {
     $response .= "10. ARIARIA\n";
     $response .= "11. OGBOR\n";
  }
+
+elseif ($text == "1*1*1*1*1") {
+   $response = "CON select the last 3 codes of your PU \n";
+   $response .= "1. 001 \n";
+   $response .= "2. 002 \n";
+   $response .= "3. 003 \n";
+   $response .= "4. 004 \n";
+   $response .= "5. 006 \n";
+   $response .= "6. 006 \n";
+   $response .= "7. 007 \n";
+   $response .= "8. 008 \n";
+   $response .= "9. 009 \n";
+   $response .= "10. 010 \n";
+   $response .= "11. 011 \n";
+ }
+
+// this for the amuzu
+ elseif ($text == "1*1*1*1*1*1"){
+  $pulling = "Umuogu Hall";
+  $response == "END Your voting point is $pulling";
+}
+elseif ($text == "1*1*1*1*1*2"){
+  $pulling = "Community School Umuogwu";
+  $response == "END Your voting point is $pulling";
+}
+elseif ($text == "1*1*1*1*1*3"){
+  $pulling = "Community School Umuebee";
+  $response == "END Your voting point is $pulling";
+}
+elseif ($text == "1*5*3*1*1*4"){
+  $pulling = "Nriukwu Civil Hall";
+  $response == "END Your voting point is $pulling";
+}
+elseif ($text == "1*5*3*1*1*5"){
+  $pulling = "Central School Amator";
+  $response == "END Your voting point is $pulling";
+}
+elseif ($text == "1*5*3*1*1*6"){
+  $pulling = "Central School Amator";
+  $response == "END Your voting point is $pulling";
+}
+elseif ($text == "1*5*3*1*1*7"){
+  $pulling = "Town School Amuzu";
+  $response == "END Your voting point is $pulling";
+}
+elseif ($text == "1*5*3*1*1*8"){
+  $pulling = "Central town Amuzu";
+  $response == "END Your voting point is $pulling";
+}
+elseif ($text == "1*5*3*1*1*9"){
+  $pulling = "Central School Nriukwu";
+  $response == "END Your voting point is $pulling";
+}
+elseif ($text == "1*5*3*1*1*10"){
+  $pulling = "Umuodaa Village Hall";
+  $response == "END Your voting point is $pulling";
+}
+elseif ($text == "1*5*3*1*1*11"){
+  $pulling = "Amaiyi Nriukwu (St John)";
+  $response == "END Your voting point is $pulling";
+}
 
  elseif($text == "1*1*1*2"){
     // To show all wards aba south
@@ -1904,7 +1965,7 @@ else if ( $text == "1" ) {
     $response .= "25. Owerri North\n";
     $response .= "26. Owerri West\n";
  }
- elseif ($text == "1*5*3*1") {
+ else if ($text == "1*5*3*1") {
     $response = "WARDS IN ABOH MBAISE\n";
     $response .= "1. Amuzu \n";
     $response .= "2. enyiogugu\n";
