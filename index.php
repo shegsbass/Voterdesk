@@ -172,12 +172,13 @@ elseif ($text == "1*1*1*1*1") {
 
 // this for the amuzu
  elseif ($text == "1*1*1*1*1*1"){
-  $response == "Your voting point is Omugu Hall";
-      $response = END;
-}
-elseif ($text == "1*1*1*1*1*2"){
-  $pulling = "Community School Umuogwu";
+      $pulling = "Omugu Hall";
   $response == "END Your voting point is $pulling";
+}
+
+else if ($text == "1*1*1*1*1*2"){
+  $pulling = "Community School Umuogwu";
+  $response = "END Your voting point is $pulling";
 }
 elseif ($text == "1*1*1*1*1*3"){
   $pulling = "Community School Umuebee";
