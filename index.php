@@ -1966,7 +1966,7 @@ elseif ($text == "1*5*3*1*1*11"){
     $response .= "26. Owerri West\n";
  }
  else if ($text == "1*5*3*1") {
-    $response = "WARDS IN ABOH MBAISE\n";
+    $response = "CON WARDS IN ABOH MBAISE\n";
     $response .= "1. Amuzu \n";
     $response .= "2. enyiogugu\n";
     $response .= "3. ibeku\n";
