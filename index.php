@@ -173,7 +173,7 @@ elseif ($text == "1*1*1*1*1") {
 // this for the amuzu
  elseif ($text == "1*1*1*1*1*1"){
       $pulling = "Omugu Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is $pulling";
 }
 
 else if ($text == "1*1*1*1*1*2"){
