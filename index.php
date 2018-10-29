@@ -1996,18 +1996,18 @@ elseif ($text == "1*5*3*1*1*11"){
  }
  // this for the amuzu
  elseif ($text == "1*5*3*1*1*1"){
-  $response = "END Your voting point is Umuogu Hall";
+  $response = "END Your voting point is Umuogu Hall.\n \nCommunicate truth throughout the electroneering processes \n#IDecide2019";
 }
 elseif ($text == "1*5*3*1*1*2"){
   $pulling = "Community School Umuogwu";
-  $response = "END Your voting point is Community School Umuogwu \nVote with Respectability \n#IDecide2019";
+  $response = "END Your voting point is Community School Umuogwu.\n \nVote with Respectability \n#IDecide2019";
 }
 elseif ($text == "1*5*3*1*1*3"){
-  $response = "END Your voting point is Community School UUmuebee \nVote not Fight \n#IDecide2019";
+  $response = "END Your voting point is Community School UUmuebee.\n \nVote not Fight \n#IDecide2019";
 }
 elseif ($text == "1*5*3*1*1*4"){
   $pulling = "Nriukwu Civil Hall";
-  $response = "END Your voting point is Nriukwu Civil Hall\n \nDon't Sell your Vote \n#IDecide2019";
+  $response = "END Your voting point is Nriukwu Civil Hall.\n \nDon't Sell your Vote \n#IDecide2019";
 }
 elseif ($text == "1*5*3*1*1*5"){
   $pulling = "Central School Amator";
