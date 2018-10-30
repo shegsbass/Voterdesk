@@ -1999,7 +1999,6 @@ elseif ($text == "1*5*3*1*1*11"){
   $response = "END Your voting point is Umuogu Hall.\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*1*2"){
-  $pulling = "Community School Umuogwu";
   $response = "END Your voting point is Community School Umuogwu.\n \nVote with Respectability.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*1*3"){
