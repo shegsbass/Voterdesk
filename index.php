@@ -4,6 +4,7 @@ $sessionId   = $_POST["sessionId"];
 $serviceCode = $_POST["serviceCode"];
 $phoneNumber = $_POST["phoneNumber"];
 $text        = $_POST["text"];
+
 if ( $text == "" ) {
      // This is the first request. Note how we start the response with CON
      $response  = "CON What would you want to check \n";
@@ -11,7 +12,7 @@ if ( $text == "" ) {
      $response .= "2. Candidate Info";
 }
 else if ( $text == "1" ) {
-  // Business logic for first level response
+  // States in the country
   $response = "CON Select a State by Aphabet\n";
   $response .= "1. A\n";
   $response .= "2. B\n";
