@@ -2171,8 +2171,6 @@ elseif ($text == "1*5*3*1*4*6"){
   $response = "END Your voting point is Umunoke Town Hall\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*7"){
-+
-     
  $response = "END Your voting point is Okwuato Town Hall\n \n Don't Sell your Vote\n#Decide2019";
 }
 // All about ward 4
