@@ -2018,20 +2018,16 @@ elseif ($text == "1*5*3*1*1*7"){
   $response = "END Your voting point is Town School Amuzu.\n \nDon't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*1*8"){
-  $pulling = "Central town Amuzu";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Central town Amuzu\n \n Do well to vote with knowledge \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*1*9"){
-  $pulling = "Central School Nriukwu";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Central School Nriukwu\n \n Vote not Fight. \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*1*10"){
-  $pulling = "Umuodaa Village Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Umuodaa Village Hall\n \n Vote with Respectability.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*1*11"){
-  $pulling = "Amaiyi Nriukwu (St John)";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Amaiyi Nriukwu (St John)\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
 // all about amuzu ward
 
@@ -2057,72 +2053,55 @@ elseif ($text == "1*5*3*1*2") {
   $response .= "17. 017 \n";
 }
 elseif ($text == "1*5*3*1*2*1"){
-  $pulling = "Aladinma Umuelem Hall";
-  $response == "END Your voting point is $pulling";
+ $response = "END Your voting point is Aladinma Umuelem Hall\n \nVote with Respectability.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*2"){
-  $pulling = "Okwuaku Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Okwuaku Hall\n \nVote not fight\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*3"){
-  $pulling = "Umunkwo Village hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Umunkwo Village hall\n \n Do well to vote with knowledge\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*4"){
-  $pulling = "Ibeku Hall";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Ibeku Hall\n \n Do well to vote with knowledge\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*5"){
-  $pulling = "Community School Eziala";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Community School Eziala\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*6"){
-  $pulling = "Eziala Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Eziala Hall\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*7"){
-  $pulling = "Community School Umugaragu";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Community School Umugaragu\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*8"){
-  $pulling = "Umuafor Village Hall";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Ibeku Hall\n \n Do well to vote with knowledge\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*9"){
-  $pulling = "Umueziukwu Village Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Umueziukwu Village Hall\n \n Vote not fight\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*10"){
-  $pulling = "Orie Umueze Hall";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Orie Umueze Hall\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*11"){
-  $pulling = "Community School Oboama";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Community School Oboama\n \n Do well to vote with knowledge\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*12"){
-  $pulling = "Amma-Iyala Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Amma-Iyala Hall\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*13"){
-  $pulling = "Village Square (Opp. Block Rosary Hall)";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Village Square (Opp. Block Rosary Hall)\n \nVote not Fight.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*14"){
-  $pulling = "Anokam Hall";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Anokam Hall\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*15"){
-  $pulling = "Community School Egbelu";
-  $response == "END Your voting point is $pulling";
-}
+   $response = "END Your voting point is Community School Egbelu\n \n Do well to vote with knowledge\n#Decide2019";
+}     
 elseif ($text == "1*5*3*1*2*16"){
-  $pulling = "Umuoye Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Umuoye Hall\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*2*17"){
-  $pulling = "Central School Egbelu Umuhu";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Central School Egbelu Umuhu\n \n Do well to vote with knowledge\n#Decide2019";
 }
 // all about enyiogugu
 
@@ -2139,37 +2118,27 @@ elseif ($text == "1*5*3*1*3") {
   $response .= "8. 008 \n";
 }
 elseif ($text == "1*5*3*1*3*1"){
-  $pulling = "Oborji Town Hall";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Oborji Town Hall\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*2"){
-  $pulling = "Akuma Town Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Akuma Town Hall\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*3"){
-  $pulling = "Town School Ibeku";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Town School Ibeku\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*4"){
-  $pulling = "Community School Ibeku";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Community School Ibeku\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*5"){
-  $pulling = "Umuba Town Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Umuba Town Hall\n \n Do well to vote with knowledge\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*6"){
-  $pulling = "Obom Square, Akuma";
-  $response == "END Your voting point is $pulling";
-}
+  $response = "END Your voting point is Obom Square, Akuma\n \n Do well to vote with knowledge\n#Decide2019";
 elseif ($text == "1*5*3*1*3*7"){
-  $pulling = "Eke Ibeku Market Square";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Eke Ibeku Market Square\n \nVote not Fight.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*8"){
-  $pulling = "Umuokwu Town Hall";
-  $response == "END Your voting point is $pulling";
-}
+  $response = "END Your voting point is Umuokwu Town Hall\n \nVote not Fight.\n#Decide2019";
 // all about ward 3
 
 //This is for ward 4
@@ -2184,32 +2153,27 @@ elseif ($text == "1*5*3*1*4") {
   $response .= "7. 007 \n";
 }
 elseif ($text == "1*5*3*1*4*1"){
-  $pulling = "Group School Lagwa";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Group School Lagwa\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*2"){
-  $pulling = "Obo Town Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Obo Town Hall\n \nVote not Fight.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*3"){
-  $pulling = "Central School Okwuato";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Central School Okwuato\n \nVote not Fight.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*4"){
-  $pulling = "Amaubeagba Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Amaubeagba Hall\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*5"){
-  $pulling = "Umuabazu Town Hall";
-  $response == "END Your voting point is $pulling";
+   $response = "END Your voting point is Umuabazu Town Hall\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*6"){
-  $pulling = "Umunoke Town Hall";
-  $response == "END Your voting point is $pulling";
+  $response = "END Your voting point is Umunoke Town Hall\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*7"){
-  $pulling = "Okwuato Town Hall";
-  $response == "END Your voting point is $pulling";
++
+     
+ $response = "END Your voting point is Okwuato Town Hall\n \n Don't Sell your Vote\n#Decide2019";
 }
 // All about ward 4
 
