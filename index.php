@@ -1948,13 +1948,14 @@ elseif ($text == "1*5*3*1*1*11"){
     $response .= "17. Oguta\n";
     $response .= "18. Ohaji/Egbema\n";
     $response .= "19. Okigwe\n";
-    $response .= "20. Orlu\n";
-    $response .= "21. Orsu\n";
-    $response .= "22. Oru East\n";
-    $response .= "23. Oru West\n";
-    $response .= "24. Owerri-Municipal\n";
-    $response .= "25. Owerri North\n";
-    $response .= "26. Owerri West\n";
+    $response .= "20. Onuimo\n";
+    $response .= "21. Orlu\n";
+    $response .= "22. Orsu\n";
+    $response .= "23. Oru East\n";
+    $response .= "24. Oru West\n";
+    $response .= "25. Owerri-Municipal\n";
+    $response .= "26. Owerri North\n";
+    $response .= "27. Owerri West\n";
  }
  else if ($text == "1*5*3*1") {
     $response = "CON WARDS IN ABOH MBAISE\n";
@@ -2107,30 +2108,30 @@ elseif ($text == "1*5*3*1*3") {
   $response .= "7. 007 \n";
   $response .= "8. 008 \n";
 }
-/**
+
 elseif ($text == "1*5*3*1*3*1"){
-   $response = "END Your voting point is Oborji Town Hall\n \nVote responsibly \n#Decide2019";
+   $response .= "END Your voting point is Oborji Town Hall\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*2"){
-  $response = "END Your voting point is Akuma Town Hall\n \nVote responsibly \n#Decide2019";
+  $response .= "END Your voting point is Akuma Town Hall\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*3"){
-  $response = "END Your voting point is Town School Ibeku\n \n Don't Sell your Vote\n#Decide2019";
+  $response .= "END Your voting point is Town School Ibeku\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*4"){
-   $response = "END Your voting point is Community School Ibeku\n \n Don't Sell your Vote\n#Decide2019";
+   $response .= "END Your voting point is Community School Ibeku\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*5"){
-  $response = "END Your voting point is Umuba Town Hall\n \n Do well to vote with knowledge\n#Decide2019";
+  $response .= "END Your voting point is Umuba Town Hall\n \n Do well to vote with knowledge\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*6"){
-  $response = "END Your voting point is Obom Square, Akuma\n \n Do well to vote with knowledge\n#Decide2019";
+  $response .= "END Your voting point is Obom Square, Akuma\n \n Do well to vote with knowledge\n#Decide2019";
   }
 elseif ($text == "1*5*3*1*3*7"){
-  $response = "END Your voting point is Eke Ibeku Market Square\n \nVote not Fight.\n#Decide2019";
+  $response .= "END Your voting point is Eke Ibeku Market Square\n \nVote not Fight.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*3*8"){
-  $response = "END Your voting point is Umuokwu Town Hall\n \nVote not Fight.\n#Decide2019";
+  $response .= "END Your voting point is Umuokwu Town Hall\n \nVote not Fight.\n#Decide2019";
 // all about ward 3
 
 //This is for ward 4
@@ -2145,27 +2146,26 @@ elseif ($text == "1*5*3*1*4") {
   $response .= "7. 007 \n";
 }
 elseif ($text == "1*5*3*1*4*1"){
-   $response = "END Your voting point is Group School Lagwa\n \nVote responsibly \n#Decide2019";
+   $response .= "END Your voting point is Group School Lagwa\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*2"){
-  $response = "END Your voting point is Obo Town Hall\n \nVote not Fight.\n#Decide2019";
+  $response .= "END Your voting point is Obo Town Hall\n \nVote not Fight.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*3"){
-   $response = "END Your voting point is Central School Okwuato\n \nVote not Fight.\n#Decide2019";
+   $response .= "END Your voting point is Central School Okwuato\n \nVote not Fight.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*4"){
-  $response = "END Your voting point is Amaubeagba Hall\n \n Don't Sell your Vote\n#Decide2019";
+  $response .= "END Your voting point is Amaubeagba Hall\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*5"){
-   $response = "END Your voting point is Umuabazu Town Hall\n \nVote responsibly \n#Decide2019";
+   $response .= "END Your voting point is Umuabazu Town Hall\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*6"){
-  $response = "END Your voting point is Umunoke Town Hall\n \n Don't Sell your Vote\n#Decide2019";
+  $response .= "END Your voting point is Umunoke Town Hall\n \n Don't Sell your Vote\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*4*7"){
- $response = "END Your voting point is Okwuato Town Hall\n \n Don't Sell your Vote\n#Decide2019";
+ $response .= "END Your voting point is Okwuato Town Hall\n \n Don't Sell your Vote\n#Decide2019";
 }
-**/
 // All about ward 4
 
 // This is for ward 5
@@ -2179,20 +2179,18 @@ elseif ($text == "1*5*3*1*5") {
   $response .= "6. 006 \n";
 }
 elseif ($text == "1*5*3*1*5*1"){
-  $pulling = "Community School Lorji I";
-  $response == "END Your voting point is $pulling";
+
+  $response .= "END Your voting point is Community School Lorji I\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*5*2"){
-  $pulling = "Community School Lorji II";
-  $response == "END Your voting point is $pulling";
+   $response .= "END Your voting point is Community School Lorji II\n \nVote not Fight.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*5*3"){
-  $pulling = "Community School Lorji III";
-  $response == "END Your voting point is $pulling";
+  $response .= "END Your voting point is Community School Lorji III\n \nVote not Fight.\n#Decide2019";
 }
 elseif ($text == "1*5*3*1*5*4"){
   $pulling = "Central School Lorji I";
-  $response == "END Your voting point is $pulling";
+  $response .= "END Your voting point is Umuabazu Town Hall\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*5*5"){
   $pulling = "Central School Lorji II";
@@ -2949,25 +2947,40 @@ elseif ($text == "1*5*3*1*8") {
  $response .= "10. Umualumuoke\n";
  $response .= "11. Umulolo\n";
   }
-
+     
   elseif($text == "1*5*3*19"){
-        //Wards in Onuimo LGA
- $response = "CON Wards in Onuimo (Okwe)\n";
- $response .= "1. Aboh/Okohia\n";
- $response .= "2. Ezelu\n";
- $response .= "3. Eziama\n";
- $response .= "4. Ofeahia/Umuanumeze\n";
- $response .= "5. Okwelle I\n";
- $response .= "6. Okwelle II\n";
- $response .= "7. Owerre-Okwe\n";
- $response .= "8. Ozimo/Umuneze\n";
+    //Wards in Okigwe LGA
+ $response = "CON Wards in Onuimo\n";
+ $response .= "1. Agbobu\n";
+ $response .= "2. Aku\n";
+ $response .= "3. Amuro\n";
+ $response .= "4. Ezinachi\n";
+ $response .= "5. Ihube\n";
+ $response .= "6. Ndimoko Ofeimo/Ibinta/Okanachi/Umuowa Ibu\n";
+ $response .= "7. Ogii\n";
+ $response .= "8. Okigwe I\n";
  $response .= "9. Okigwe II\n";
- $response .= "10. Umucheke\n";
- $response .= "11. Umuna\n";
+ $response .= "10. Umualumuoke\n";
+ $response .= "11. Umulolo\n";
   }
 
   elseif($text == "1*5*3*20"){
-            //Wards in Orlu LGA
+        //Wards in Onuimo LGA
+ $response = "CON Wards in Onuimo (Okwe)\n";
+ $response .= "1. Eziama\n";
+ $response .= "2. Umucheke\n";
+ $response .= "3. Owerre Okwe\n";
+ $response .= "4. Ezelu\n";
+ $response .= "5. Ofeahia/Umuanumeze\n";
+ $response .= "6. Aboh/Okohia\n";
+ $response .= "7. Ozimo/Umuneze\n";
+ $response .= "8. Umuna\n";
+ $response .= "9. Okwelle 1\n";
+ $response .= "10. Okwelle 11\n";
+  }
+
+  elseif($text == "1*5*3*21"){
+  //Wards in Orlu LGA
  $response = "CON Wards in Orlu\n";
  $response .= "1. Amaifeke\n";
  $response .= "2. Ebenese/Umueze/Nnachi Ihioma\n";
@@ -2984,96 +2997,99 @@ elseif ($text == "1*5*3*1*8") {
  $response .= "13. Umuzike/Umuowa\n";
   }
 
-  elseif($text == "1*5*3*21"){
-       //Wards in Orsu LGA
- $response = "CON Wards in Oslu (Awo Idemili)\n";
- $response .= "1. Amaruru\n";
- $response .= "2. Assah Ubiri Elem\n";
- $response .= "3. Ebenator\n";
- $response .= "4. Eziawa\n";
- $response .= "5. Ihitenansa\n";
- $response .= "6. Okwuamaraihie I\n";
- $response .= "7. Okwuamaraihie II\n";
- $response .= "8. Okwuetiti\n";
- $response .= "9. Okwufuruaku\n";
- $response .= "10. Orsu Ihiteukwa\n";
- $response .= "11. Umuhu Okabia\n";
-  }
-
   elseif($text == "1*5*3*22"){
-   //Wards in Oru LGA
- $response = "CON Wards in Oru West\n";
- $response .= "1. Aji\n";
- $response .= "2. Amafuo\n";
- $response .= "3. Ibiaso Egbe\n";
- $response .= "4. Mgbidi I\n";
- $response .= "5. Mgbidi II\n";
- $response .= "6. Nempi/Elem\n";
- $response .= "7. Ohakpu\n";
- $response .= "8. Otulu\n";
- $response .= "9. Ozara\n";
- $response .= "10. Ubulu\n";
+  //Wards in Orsu LGA
+ $response = "CON Wards in Oslu (Awo Idemili)\n";
+ $response .= "1. Umuhu\n";
+ $response .= "2. Okabia\n";
+ $response .= "3. Ebenator\n";
+ $response .= "4. Okwufuruaku\n";
+ $response .= "5. Okwuamaraihie I\n";
+ $response .= "6. Okwuamaraihie II\n";
+ $response .= "7. Okwuetiti\n";
+ $response .= "8. Orsu Ihiteukwa\n";
+ $response .= "9. Ihitenansa\n";
+ $response .= "10. Assah Ubiri Elem\n";
+ $response .= "11. Eziawa\n";
+ $response .= "11. Amaruru\n";
   }
 
   elseif($text == "1*5*3*23"){
-     //Wards in Oru East LGA
+   //Wards in Oru East LGA
  $response = "CON Wards in Oru East\n";
- $response .= "1. Akata\n";
- $response .= "2. Akuma\n";
- $response .= "3. Amagu\n";
- $response .= "4. Amiri I\n";
- $response .= "5. Amiri II\n";
- $response .= "6. Awo-Omamma I\n";
- $response .= "7. Awo-Omamma II\n";
- $response .= "8. Awo-Omamma III\n";
- $response .= "9. Awo-Omamma Iv\n";
+ $response .= "1. Awo-Omamma I\n";
+ $response .= "2. Awo-Omamma II\n";
+ $response .= "3. Awo-Omamma III\n";
+ $response .= "4. Awo-Omamma IV\n";
+ $response .= "5. Amiri I\n";
+ $response .= "6. Amiri II\n";
+ $response .= "7. Akuma\n";
+ $response .= "8. Amayu\n";
+ $response .= "9. Akata\n";
  $response .= "10. Omuma\n";
   }
 
   elseif($text == "1*5*3*24"){
-   //Wards in Owerri North LGA
- $response = "CON Wards in Owerri North (Orie Uratta)\n";
- $response .= "1. Agbala/Obube/Ulakwo\n";
- $response .= "2. Awaka/Ihitte-Ogada\n";
- $response .= "3. Egbu\n";
- $response .= "4. Emekuku I\n";
- $response .= "5. Emekuku II\n";
- $response .= "6. Emii\n";
- $response .= "7. Ihitta-Oha\n";
- $response .= "8. Naze\n";
- $response .= "9. Obibi-Uratta I\n";
- $response .= "10. Obibi-Uratta II\n";
- $response .= "11. Orji\n";
+     //Wards in Oru West LGA
+ $response = "CON Wards in Oru West (Mgbidi)\n";
+ $response .= "1. Nempi/Elem\n";
+ $response .= "2. Otulu\n";
+ $response .= "3. Aji\n";
+ $response .= "4. Ibiaso Egbe\n";
+ $response .= "5. Amafuo\n";
+ $response .= "6. Ohakpu\n";
+ $response .= "7. Ozara\n";
+ $response .= "8. Ubulu\n";
+ $response .= "9. Mgbidi I\n";
+ $response .= "10. Mgbidi II\n";
   }
 
   elseif($text == "1*5*3*25"){
-       //Wards in Owerri Urban LGA
- $response = "CON Wards in Owerri Urban\n";
+   //Wards in Owerri Municipal LGA
+ $response = "CON Wards in Owerri Municipal\n";
  $response .= "1. Aladinma I\n";
  $response .= "2. Aladinma II\n";
- $response .= "3. Azuzi I\n";
- $response .= "4. Azuzi II\n";
- $response .= "5. Azuzi III\n";
- $response .= "6. Azuzi Iv\n";
- $response .= "7. Gra\n";
- $response .= "8. Ikenegbu I\n";
- $response .= "9. Ikenegbu II\n";
+ $response .= "3. Ikenegbu I\n";
+ $response .= "4. Ikenegbu II\n";
+ $response .= "5. Azuzi I\n";
+ $response .= "6. Azuzi II\n";
+ $response .= "7. Azuzi III\n";
+ $response .= "8. Azuzi IV\n";
+ $response .= "9. GRA\n";
  $response .= "10. New Owerri I\n";
  $response .= "11. New Owerri II\n";
   }
 
   elseif($text == "1*5*3*26"){
+       //Wards in Owerri North LGA
+ $response = "CON Wards in Owerri North (Orie Uratta)\n";
+ $response .= "1. Awaka/Ihitte-Ogada I\n";
+ $response .= "2. Naze\n";
+ $response .= "3. Egbu\n";
+ $response .= "4. Emii\n";
+ $response .= "5. Emekuku I\n";
+ $response .= "6. Emekuku II\n";
+ $response .= "7. Orji\n";
+ $response .= "8. Ihitta-Oha\n";
+ $response .= "9. Obibi-Urata I\n";
+ $response .= "10. Obibi-Urata II\n";
+ $response .= "11. Agbala/Obube/Ulakwo\n";
+  $response .= "12. Obibiezena\n";
+  }
+
+  elseif($text == "1*5*3*27"){
       //Wards in Owerri West LGA
  $response = "CON Wards in Owerri West\n";
- $response .= "1. Amakohia-Ubi/Ndegwu Ohii\n";
- $response .= "2. Avu/Oforola\n";
- $response .= "3. Emeabiam/Okolochi\n";
- $response .= "4. Eziobodo\n";
- $response .= "5. Ihiagwa\n";
- $response .= "6. Nekede\n";
- $response .= "7. Obinze\n";
- $response .= "8. Okuku\n";
- $response .= "9. Umuguma\n";
+ $response .= "1. Avu/Oforola\n";
+ $response .= "2. Omukuma\n";
+ $response .= "3. Okuku\n";
+ $response .= "4. Emeabiam/Okolochi\n";
+ $response .= "5. Eziobodo\n";
+ $response .= "6. Ihiagwa\n";
+ $response .= "7. Nekede\n";
+ $response .= "8. Obinze\n";
+ $response .= "9. Amakohia-Ubi/Ndegwu-Ohii\n";
+ $response .= "10. Irete/Orogwe\n";
   }
 
 /* else if ( $text == "1*5*4" ) {
