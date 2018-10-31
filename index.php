@@ -1957,6 +1957,8 @@ elseif ($text == "1*5*3*1*1*11"){
     $response .= "27. Owerri West\n";
  }
  else if ($text == "1*5*3*1") {
+    $response = "select an option \n";
+    $response .= "0. DANGER ALERT in ABOH MBAISE\n";    
     $response = "CON WARDS IN ABOH MBAISE\n";
     $response .= "1. Amuzu \n";
     $response .= "2. enyiogugu\n";
@@ -2245,7 +2247,7 @@ elseif ($text == "1*5*3*1*6*5"){
 }
 elseif ($text == "1*5*3*1*6*6"){
   $pulling = "Ozara Village Hall";
-  $response == "END Your voting point is $pulling";
+  $response .= "END Your voting point is $pulling";
 }
 elseif ($text == "1*5*3*1*6*7"){
   $pulling = "Central School, Mbutu";
@@ -2662,7 +2664,10 @@ elseif ($text == "1*5*3*1*8") {
           }
           
  elseif($text == "1*5*3*2"){
-    $response = "WARDS IN AHIAZU MBAISE\n";
+    $response = "select an option \n";
+    $response .= "0. DANGER ALERT in AHIAZU MBAISE\n";   
+    $response = "WARDS IN AHIAZU MBAISE\n";  
+    $response .= "0. DANGER ALERT\n";  
     $response .= "1. ihenworie\n";
     $response .= "2. mpam\n";
     $response .= "3. nnarambia\n";
@@ -2677,8 +2682,10 @@ elseif ($text == "1*5*3*1*8") {
     $response .= "12. umunumo\n"; 
  }
 
- elseif($text == "1*5*3*3"){
-    $response = "WARDS IN EHIME MBANO\n";
+ elseif($text == "1*5*3*3"){ 
+    $response = "select an option \n";
+    $response .= "0. DANGER ALERT in EHIME MBANO\n";    
+    $response = "WARDS IN EHIME MBANO\n";  
     $response .= "1. agbaja\n";
     $response .= "2. nsu 'a' ikpe\n";
     $response .= "3. nsu 'b' ihitte\n";
@@ -2693,6 +2700,8 @@ elseif ($text == "1*5*3*1*8") {
  }
 
  elseif($text == "1*5*3*4"){
+    $response = "select an option \n";
+    $response .= "0. DANGER ALERT in EZINIHHITE MBAISE\n";   
     $response = "WARDS IN EZINIHHITE MBAISE\n";
     $response .= "1. amumara\n";
     $response .= "2. akpodim\n";
@@ -2709,6 +2718,8 @@ elseif ($text == "1*5*3*1*8") {
  }
 
  elseif($text == "1*5*3*5"){
+    $response = "select an option \n";
+    $response .= "0. DANGER ALERT in IDEATO NORTH\n";   
     $response = "WARDS IN IDEATO NORTH\n";
     $response .= "1. akpulu\n";
     $response .= "2. akwu owerre\n";
@@ -2727,6 +2738,8 @@ elseif ($text == "1*5*3*1*8") {
  }
 
  elseif($text == "1*5*3*6"){
+  $response = "select an option \n";
+  $response .= "0. DANGER ALERT in IDEATO SOUTH\n";     
   $response = "WARDS IN IDEATO SOUTH\n";
   $response .= "1. AMANATOR\n";
   $response .= "2. DIKENAFAI\n";
@@ -2743,6 +2756,8 @@ elseif ($text == "1*5*3*1*8") {
  }
 
  elseif($text == "1*5*3*7"){
+  $response = "select an option \n";
+  $response .= "0. DANGER ALERT in IHITTE/UBOMA\n";     
   $response = "WARDS IN IHITTE/UBOMA";
   $response .= "1. ABUEKE\n";
   $response .= "2. AMAINYI\n";
@@ -2757,6 +2772,8 @@ elseif ($text == "1*5*3*1*8") {
  }
 
  elseif($text == "1*5*3*8"){
+ $response = "select an option \n";
+    $response .= "0. DANGER ALERT in IKEDURU\n";      
   $response = "WARDS IN IKEDURU";
   $response .= "1. AKABO\n";
   $response .= "2. AMAIMO\n";
@@ -2773,6 +2790,8 @@ elseif ($text == "1*5*3*1*8") {
  }
 
  elseif($text == "1*5*3*9"){
+  $response = "select an option \n";
+  $response .= "0. DANGER ALERT in ISIALA MBANO\n";     
   $response = "CON WARDS IN ISIALA MBANO";
   $response .= "1. AMARAKU\n";
   $response .= "2. AMAUZARI\n";
@@ -2789,6 +2808,8 @@ elseif ($text == "1*5*3*1*8") {
  }
 
  elseif($text == "1*5*3*10"){
+  $response = "select an option \n";
+    $response .= "0. DANGER ALERT in ISU(UMUNDUNGA)\n";     
   $response = "CON WARDS IN ISU(UMUNDUGBA)\n";
   $response .= "1. AMANDUGBA\n";
   $response .= "2. AMANDUGBA 2\n";
@@ -2805,6 +2826,8 @@ elseif ($text == "1*5*3*1*8") {
 
   elseif($text == "1*5*3*11"){
     //Wards in Mbaitoli
+  $response = "select an option \n";
+    $response .= "0. DANGER ALERT in MBAITOLI\n";      
   $response = "CON Wards in Mbaitoli(Nwaorieubi)\n";
   $response .= "1. Afara/Eziama\n";
   $response .= "2. Amaike Mbieri\n";
@@ -2821,7 +2844,10 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*12"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in NGOR OKPALA\n"; 
       //Wards in Ngor Okpala LGA
+ 
   $response = "CON Wards in Ngor Okpala(Umuneke)\n";
   $response .= "1. Amala/Alulu/Oburu/Obokwe/Ntu\n";
   $response .= "2. Elelem/Obike\n";
@@ -2837,6 +2863,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*13"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in NJABA\n"; 
      //Wards in Njaba LGA
   $response = "CON Wards in Njaba(Nnenasa)\n";
   $response .= "1. Amucha I\n";
@@ -2853,6 +2881,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*14"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in NKWERE\n"; 
        //Wards in Nkwere LGA
   $response = "CON Wards in Nkwere\n";
   $response .= "1. Amaokpara\n";
@@ -2868,6 +2898,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*15"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in NWANGELE\n"; 
            //Wards in Nwangele LGA
   $response = "CON Wards in Nwangele (Onu-Amaigbo)\n";
   $response .= "1. Abajah Ward I\n";
@@ -2884,6 +2916,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*16"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in OBOWO\n"; 
      //Wards in Obowo LGA
   $response = "CON Wards in Obowo (Otoko)\n";
   $response .= "1. Alike\n";
@@ -2899,6 +2933,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*17"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in OGUTA\n"; 
    //Wards in Oguta LGA
    $response = "CON Wards in Oguta\n";
    $response .= "1. Awa\n";
@@ -2915,6 +2951,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*18"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in OHAJI\n"; 
  //Wards in Ohaji LGA
  $response = "CON Wards in Ohaji (Mmahu-Egbema)\n";
  $response .= "1. Assa/Obile\n";
@@ -2932,6 +2970,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*18"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in OKIGWE\n"; 
     //Wards in Okigwe LGA
  $response = "CON Wards in Okigwe\n";
  $response .= "1. Agbobu\n";
@@ -2948,6 +2988,8 @@ elseif ($text == "1*5*3*1*8") {
   }
      
   elseif($text == "1*5*3*19"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in ONUIMO\n"; 
     //Wards in Okigwe LGA
  $response = "CON Wards in Onuimo\n";
  $response .= "1. Agbobu\n";
@@ -2964,6 +3006,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*20"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in ONUIMO(OKWE)\n"; 
         //Wards in Onuimo LGA
  $response = "CON Wards in Onuimo (Okwe)\n";
  $response .= "1. Eziama\n";
@@ -2979,6 +3023,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*21"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in ORLU\n"; 
   //Wards in Orlu LGA
  $response = "CON Wards in Orlu\n";
  $response .= "1. Amaifeke\n";
@@ -2997,6 +3043,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*22"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in OSLU(AWO IDEMILI)\n"; 
   //Wards in Orsu LGA
  $response = "CON Wards in Oslu (Awo Idemili)\n";
  $response .= "1. Umuhu\n";
@@ -3014,6 +3062,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*23"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in ORU EAST\n"; 
    //Wards in Oru East LGA
  $response = "CON Wards in Oru East\n";
  $response .= "1. Awo-Omamma I\n";
@@ -3029,6 +3079,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*24"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in ORU WEST\n"; 
      //Wards in Oru West LGA
  $response = "CON Wards in Oru West (Mgbidi)\n";
  $response .= "1. Nempi/Elem\n";
@@ -3044,6 +3096,8 @@ elseif ($text == "1*5*3*1*8") {
   }
 
   elseif($text == "1*5*3*25"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in OWERRI MUNICIPAL\n"; 
    //Wards in Owerri Municipal LGA
  $response = "CON Wards in Owerri Municipal\n";
  $response .= "1. Aladinma I\n";
@@ -3058,8 +3112,13 @@ elseif ($text == "1*5*3*1*8") {
  $response .= "10. New Owerri I\n";
  $response .= "11. New Owerri II\n";
   }
+elseif ($text == "1*5*3*25*0"){
+  $response .= "END Sorry, there is no current danger alert, check later.\n Thank you \n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+}
 
   elseif($text == "1*5*3*26"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in OWERRI NORTH\n"; 
        //Wards in Owerri North LGA
  $response = "CON Wards in Owerri North (Orie Uratta)\n";
  $response .= "1. Awaka/Ihitte-Ogada I\n";
@@ -3075,8 +3134,82 @@ elseif ($text == "1*5*3*1*8") {
  $response .= "11. Agbala/Obube/Ulakwo\n";
  $response .= "12. Obibiezena\n";
   }
+elseif ($text == "1*5*3*26*0"){
+  $response .= "END Sorry, there is no current danger alert, check later.\n Thank you \n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+}
+elseif ($text == "1*5*3*26*9") {
+   $response = "CON select the last 3 codes of your PU \n";
+   $response .= "1. 001 \n";
+   $response .= "2. 002 \n";
+   $response .= "3. 003 \n";
+   $response .= "4. 004 \n";
+   $response .= "5. 006 \n";
+   $response .= "6. 006 \n";
+   $response .= "7. 007 \n";
+   $response .= "8. 008 \n";
+   $response .= "9. 009 \n";
+   $response .= "10. 010 \n";
+   $response .= "11. 011 \n";
+   $response .= "12. 012 \n"; 
+   $response .= "13. 013 \n"; 
+   $response .= "14. 014 \n"; 
+   $response .= "15. 015 \n";   
+ }
+
+ // this for the amuzu
+ elseif ($text == "1*5*3*26*9*1"){
+  $response .= "END Your voting point is Community Primary School Umualum.\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+}
+elseif ($text == "1*5*3*26*9*2"){
+  $response .= "END Your voting point is Umuorii primary school I\n \nVote with Respectability.\n#Decide2019";
+}
+elseif ($text == "1*5*3*26*9*3"){
+  $response .= "END Your voting point is Umuorii Primary School II.\n \nVote not Fight.\n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*4"){
+  $response .= "END Your voting point is Orie Umuorii Market Square.\n \nDon't Sell your Vote\n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*5"){
+  $response .= "END Your voting point is Community Primary School Umuoba I\n \nDon't Sell your Vote\n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*6"){
+  $response .= "END Your voting point is Community Primary School Umuoba II\n \nDon't Sell your Vote\n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*7"){
+  $response .= "END Your voting point is Community Primary School Umuoba III.\n \nDon't Sell your Vote\n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*8"){
+  $response .= "END Your voting point is Town Hall Nkwo Umuoba I\n \n Do well to vote with knowledge \n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*9"){
+  $response = "END Your voting point is Town Hall Nkwo Umuoba II\n \n Vote not Fight. \n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*10"){
+  $response .= "END Your voting point is Okwu Village Square\n \n Vote with Respectability.\n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*11"){
+  $response .= "END Your voting point is Community School Okwu Uratta I\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*12"){
+  $response .= "END Your voting point is Community School Okwu Uratta II\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*13"){
+  $response .= "END Your voting point is Okwu Village Square\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*14"){
+  $response .= "END Your voting point is Fair Child Nursery School I\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+}
+elseif ($text == "1*5*3*23*9*15"){
+  $response .= "END Your voting point Fair Child Nursery School II \n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+}
+
+
+
+
 
   elseif($text == "1*5*3*27"){
+       $response = "select an option \n";
+    $response .= "0. DANGER ALERT in OWERRI WEST\n"; 
   //Wards in Owerri West LGA
  $response = "CON Wards in Owerri West\n";
  $response .= "1. Avu/Oforola\n";
@@ -3090,6 +3223,9 @@ elseif ($text == "1*5*3*1*8") {
  $response .= "9. Amakohia-Ubi/Ndegwu-Ohii\n";
  $response .= "10. Irete/Orogwe\n";
   }
+elseif ($text == "1*5*3*27*0"){
+  $response .= "END Sorry, there is no current danger alert, check later.\n Thank you \n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+}
 
 /* else if ( $text == "1*5*4" ) {
     // Show all LGA in Jigawa
