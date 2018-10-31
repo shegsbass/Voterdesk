@@ -452,7 +452,6 @@ elseif ($text == "1*5*3*1*1*11"){
  }
 
 
-/**
  else if ( $text == "1*1*2" ) {
     // Show all LGA in Adamawa
     $response .= "CON Select your LGA";
@@ -2132,6 +2131,7 @@ elseif ($text == "1*5*3*1*3*7"){
 }
 elseif ($text == "1*5*3*1*3*8"){
   $response .= "END Your voting point is Umuokwu Town Hall\n \nVote not Fight.\n#Decide2019";
+}
 // all about ward 3
 
 //This is for ward 4
@@ -3744,7 +3744,7 @@ elseif ($text == "1*5*3*1*8") {
     $response .= "15. Zurmi";
    }  */
  
-**/
+     
 
 // Print the response onto the page so that our gateway can read it
 header('Content-type: text/plain');
