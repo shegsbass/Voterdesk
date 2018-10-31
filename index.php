@@ -3151,7 +3151,7 @@ elseif ($text == "1*5*3*26*9") {
  }
 
  // this for the obibi
- elseif ($text == "1*5*3*9*1"){
+ elseif ($text == "1*5*3*26*9*1"){
   $response .= "END Your voting point is Community Primary School Umualum.\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
 elseif ($text == "1*5*3*26*9*2"){
@@ -3160,40 +3160,40 @@ elseif ($text == "1*5*3*26*9*2"){
 elseif ($text == "1*5*3*26*9*3"){
   $response .= "END Your voting point is Umuorii Primary School II.\n \nVote not Fight.\n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*4"){
+elseif ($text == "1*5*3*26*9*4"){
   $response .= "END Your voting point is Orie Umuorii Market Square.\n \nDon't Sell your Vote\n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*5"){
+elseif ($text == "1*5*3*26*9*5"){
   $response .= "END Your voting point is Community Primary School Umuoba I\n \nDon't Sell your Vote\n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*6"){
+elseif ($text == "1*5*3*26*9*6"){
   $response .= "END Your voting point is Community Primary School Umuoba II\n \nDon't Sell your Vote\n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*7"){
+elseif ($text == "1*5*3*26*9*7"){
   $response .= "END Your voting point is Community Primary School Umuoba III.\n \nDon't Sell your Vote\n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*8"){
+elseif ($text == "1*5*3*26*9*8"){
   $response .= "END Your voting point is Town Hall Nkwo Umuoba I\n \n Do well to vote with knowledge \n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*9"){
+elseif ($text == "1*5*3*26*9*9"){
   $response = "END Your voting point is Town Hall Nkwo Umuoba II\n \n Vote not Fight. \n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*10"){
+elseif ($text == "1*5*3*26*9*10"){
   $response .= "END Your voting point is Okwu Village Square\n \n Vote with Respectability.\n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*11"){
+elseif ($text == "1*5*3*26*9*11"){
   $response .= "END Your voting point is Community School Okwu Uratta I\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*12"){
+elseif ($text == "1*5*3*26*9*12"){
   $response .= "END Your voting point is Community School Okwu Uratta II\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*13"){
+elseif ($text == "1*5*3*26*9*13"){
   $response .= "END Your voting point is Okwu Village Square\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*14"){
+elseif ($text == "1*5*3*26*9*14"){
   $response .= "END Your voting point is Fair Child Nursery School I\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
-elseif ($text == "1*5*3*23*9*15"){
+elseif ($text == "1*5*3*26*9*15"){
   $response .= "END Your voting point Fair Child Nursery School II \n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
 
