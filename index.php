@@ -3073,7 +3073,7 @@ elseif ($text == "1*5*3*1*8") {
  $response .= "9. Obibi-Urata I\n";
  $response .= "10. Obibi-Urata II\n";
  $response .= "11. Agbala/Obube/Ulakwo\n";
-  $response .= "12. Obibiezena\n";
+ $response .= "12. Obibiezena\n";
   }
 
   elseif($text == "1*5*3*27"){
