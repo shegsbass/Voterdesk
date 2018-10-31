@@ -2610,7 +2610,7 @@ elseif ($text == "1*5*3*1*8") {
           $response == "END Your voting point is $pulling";
         }
         // END OF WARD 11
-
+/**
         // THIS IS FOR WARD 12
         elseif ($text == "1*5*3*1*12") {
           $response = "CON select the last 3 codes of your PU \n";
@@ -3073,11 +3073,11 @@ elseif ($text == "1*5*3*1*8") {
  $response .= "9. Obibi-Urata I\n";
  $response .= "10. Obibi-Urata II\n";
  $response .= "11. Agbala/Obube/Ulakwo\n";
- 
+ $response .= "12. Obibiezena\n";
   }
 
   elseif($text == "1*5*3*27"){
-      //Wards in Owerri West LGA
+  //Wards in Owerri West LGA
  $response = "CON Wards in Owerri West\n";
  $response .= "1. Avu/Oforola\n";
  $response .= "2. Omukuma\n";
@@ -3090,6 +3090,7 @@ elseif ($text == "1*5*3*1*8") {
  $response .= "9. Amakohia-Ubi/Ndegwu-Ohii\n";
  $response .= "10. Irete/Orogwe\n";
   }
+  **/
 
 /* else if ( $text == "1*5*4" ) {
     // Show all LGA in Jigawa
