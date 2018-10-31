@@ -2179,7 +2179,6 @@ elseif ($text == "1*5*3*1*5") {
   $response .= "6. 006 \n";
 }
 elseif ($text == "1*5*3*1*5*1"){
-
   $response .= "END Your voting point is Community School Lorji I\n \nVote responsibly \n#Decide2019";
 }
 elseif ($text == "1*5*3*1*5*2"){
