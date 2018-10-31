@@ -2610,7 +2610,7 @@ elseif ($text == "1*5*3*1*8") {
           $response == "END Your voting point is $pulling";
         }
         // END OF WARD 11
-/**
+
         // THIS IS FOR WARD 12
         elseif ($text == "1*5*3*1*12") {
           $response = "CON select the last 3 codes of your PU \n";
@@ -3090,7 +3090,6 @@ elseif ($text == "1*5*3*1*8") {
  $response .= "9. Amakohia-Ubi/Ndegwu-Ohii\n";
  $response .= "10. Irete/Orogwe\n";
   }
-  **/
 
 /* else if ( $text == "1*5*4" ) {
     // Show all LGA in Jigawa
