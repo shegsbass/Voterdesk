@@ -3150,8 +3150,8 @@ elseif ($text == "1*5*3*26*9") {
    $response .= "15. 015 \n";   
  }
 
- // this for the amuzu
- elseif ($text == "1*5*3*0"){
+ // this for the obibi
+ elseif ($text == "1*5*3*9*1"){
   $response .= "END Your voting point is Community Primary School Umualum.\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 }
 elseif ($text == "1*5*3*26*9*2"){
