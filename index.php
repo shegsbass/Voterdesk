@@ -1927,8 +1927,6 @@ elseif ($text == "1*5*3*1*1*11"){
 
  else if ( $text == "1*5*3" ) {
     // Show all LGA in Imo
-    $response = "CON Select your options \n";
-    $response .= "0. CHECK FOR DANGER ALERT IN IMO\n";  
     $response = "CON Select your LGA\n";
     $response .= "1. Aboh-Mbaise\n";
     $response .= "2. Ahiazu-Mbaise\n";
@@ -1957,10 +1955,12 @@ elseif ($text == "1*5*3*1*1*11"){
     $response .= "25. Owerri-Municipal\n";
     $response .= "26. Owerri North\n";
     $response .= "27. Owerri West\n";
+    $response .= "00. CHECK FOR DANGER ALERT IN IMO\n";    
  }
- else if ($text == "1*5*3*1") {
-    $response = "select an option \n";
-    $response .= "0. DANGER ALERT in ABOH MBAISE\n";    
+elseif ($text == "1*5*3*00"){
+  $response .= "END Sorry, there is no current danger alert, check later.\n Thank you \n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+}
+ else if ($text == "1*5*3*1") {  
     $response = "CON WARDS IN ABOH MBAISE\n";
     $response .= "1. Amuzu \n";
     $response .= "2. enyiogugu\n";
@@ -3130,9 +3130,7 @@ elseif ($text == "1*5*3*25*0"){
  $response .= "11. Agbala/Obube/Ulakwo\n";
  $response .= "12. Obibiezena\n";
   }
-elseif ($text == "1*5*3*26*0"){
-  $response .= "END Sorry, there is no current danger alert, check later.\n Thank you \n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
-}
+
 elseif ($text == "1*5*3*26*9") {
    $response = "CON select the last 3 codes of your PU \n";
    $response .= "1. 001 \n";
