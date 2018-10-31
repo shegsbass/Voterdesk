@@ -452,7 +452,7 @@ elseif ($text == "1*5*3*1*1*11"){
  }
 
 
-
+/**
  else if ( $text == "1*1*2" ) {
     // Show all LGA in Adamawa
     $response .= "CON Select your LGA";
@@ -3744,7 +3744,7 @@ elseif ($text == "1*5*3*1*8") {
     $response .= "15. Zurmi";
    }  */
  
-
+**/
 
 // Print the response onto the page so that our gateway can read it
 header('Content-type: text/plain');
