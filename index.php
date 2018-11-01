@@ -5,11 +5,8 @@
 // Reads the variables sent via POST from our gateway
 
 $sessionId = $_POST["sessionId"];
-
 $serviceCode = $_POST["serviceCode"];
-
 $phoneNumber = $_POST["phoneNumber"];
-
 $text = $_POST["text"];
 
 
@@ -17,40 +14,24 @@ $text = $_POST["text"];
 if ( $text == "" ) {
 
 // This is the first request. Note how we start the response with CON
-
 $response = "CON What would you want to check \n";
-
 $response .= "1. Polling Centers \n";
-
 $response .= "2. Candidate Info";
-
 }
 
 else if ( $text == "1" ) {
 
 // States in the country
-
 $response = "CON Select a State by Aphabet\n";
-
 $response .= "1. A\n";
-
 $response .= "2. B\n";
-
 $response .= "3. C and D\n";
-
 $response .= "4. E\n";
-
 $response .= "5. F,G,H,I and J\n";
-
 $response .= "6. K\n";
-
 $response .= "7. L,M and N\n";
-
 $response .= "8. O\n";
-
 $response .= "9. P,R,S,T,Y and Z\n";
-
-
 
 }
 
@@ -59,347 +40,197 @@ else if($text == "2") {
 // Displaying candidate information
 
 $response = "CON Choose candidate \n";
-
 $response .= "1. Fela Durotoye \n";
-
 $response .= "2. Donald Duke \n";
-
 $response .= "3. Muhammadu Buhari \n";
-
 $response .= "4. Kingsley Moghalu \n";
-
-
 
 }
 
 else if($text == "2*1"){
 
 // Display information of Fela Durotoye
-
 $response .= "END Fela is a 46 years old Public speaker and business strategist of the part ANN(alliance of new nigeria) \n -BSc. Computer Science and Economics, and MBA/MSc.Business Strategy from Obafemi Awolowo University \n Look up the Mushin Makeover Project"; 
-
 }
 
 else if($text == "2*2"){
 
 // Display information of Donald Duke
-
 $response .= "END Donald is a 56 years old of the party SDP(Social Democratic Party) \n -LLB from Ahmadu Bello University, \n LLM from the University of Pennsylvania \n -Former Commissioner for Finance and Planning \n -Former Governor of Cross River \n -Initiated the Tinapa Free Zone & Resort, and the Calabar Carnival" ; 
-
 }
 
 else if($text == "2*3"){
 
 // Display information of Donald Duke
-
 $response .= "END Buhari is a 76 years old of party APC(All Progessive Congress)\n -LLB from Ahmadu Bello University, \n LLM from the University of Pennsylvania \n -Former Commissioner for Finance and Planning \n -Former Governor of Cross River \n -Initiated the Tinapa Free Zone & Resort, and the Calabar Carnival" ; 
-
 }
 
 else if($text == "2*4"){
 
 // Display information of Kingsley Moghalu
-
 $response .= "END Kingsley is a 55 years old of YPP(Young People's Party)\n Professor of Practice in International Business and Public Policy at Tufts University\n
-
 -Attended UNN and LSE (PhD)\n
-
 -President of the Institute of Governance and Economic Transformation\n
-
 -Former United Nations official\n
-
 -Former CBN deputy governor"; 
-
 }
 
 else if($text == "1*1") {
 
 // Show all states in A
-
 $response = "CON Choose a state\n";
-
 $response .= "1. Abia \n";
-
 $response .= "2. Adamawa\n";
-
 $response .= "3. Akwa Ibom\n";
-
 $response .= "4. Anambra\n";
-
 }
-
-
 
 else if ( $text == "1*2" ) {
 
 // Show all states in B
-
 $response = "CON Choose a state\n";
-
 $response .= "1. Bauchi \n";
-
 $response .= "2. Bayelsa \n";
-
 $response .= "3. Benue \n";
-
 $response .= "4. Borno \n";
-
 }
-
-
 
 else if ( $text == "1*3" ) {
 
 // Show all states in C and D
-
 $response = "CON Choose a state \n";
-
 $response .= "1. Cross River\n";
-
 $response .= "2. Delta\n";
-
 }
-
-
 
 else if ( $text == "1*4" ) {
-
 // Show all states in E
-
 $response = "CON Choose a state\n";
-
 $response .= "1. Ebonyi\n";
-
 $response .= "2. Edo\n";
-
 $response .= "3. Ekiti\n";
-
 $response .= "4. Enugu\n";
-
 }
-
-
 
 else if ( $text == "1*5" ) {
 
 // Show all states in G,I and J
-
 $response .= "CON Choose a state\n";
-
 $response .= "1. FCT\n";
-
 $response .= "2. Gombe\n";
-
 $response .= "3. Imo\n";
-
 $response .= "4. Jigawa\n";
-
 }
-
-
 
 else if ( $text == "1*6" ) {
 
 // Show all states in k
-
 $response .= "CON Choose a state\n";
-
 $response .= "1. Kaduna\n";
-
 $response .= "2. Kano\n";
-
 $response .= "3. Katsina\n";
-
 $response .= "4. Kebbi\n";
-
 $response .= "5. Kogi\n";
-
 $response .= "6. Kwara\n";
-
 }
-
-
 
 else if ( $text == "1*7" ) {
 
 // Show all states in L and N
-
 $response = "CON Choose a state\n";
-
 $response .= "1. Lagos\n";
-
 $response .= "2. Nasarawa\n";
-
 $response .= "3. Niger\n";
-
 }
-
-
 
 else if ( $text == "1*8" ) {
 
 // Show all states in O
-
 $response = "CON Choose a state\n";
-
 $response .= "1. Ogun\n";
-
 $response .= "2. Ondo\n";
-
 $response .= "3. Osun\n";
-
 $response .= "4. Oyo\n";
-
 }
-
-
 
 else if ( $text == "1*9" ) {
 
 // Show all states in P,R,S,T,Y and Z
-
 $response = "CON Choose a state\n";
-
 $response .= "1. Plateau\n";
-
 $response .= "2. Rivers\n";
-
 $response .= "3. Sokoto\n";
-
 $response .= "4. Taraba\n";
-
 $response .= "4. Yobe\n";
-
 $response .= "4. Zamfara\n";
-
 }
-
-
 
 else if ( $text == "1*1*1" ) {
 
 // Show all LGA in Abia
-
 $response = "CON Select your LGA\n";
-
 $response .= "1. Aba North\n";
-
 $response .= "2. Aba South\n";
-
 $response .= "3. Arochukwu\n";
-
 $response .= "4. Bende\n";
-
 $response .= "5. Ikwuano\n";
-
 $response .= "6. Isiala-Ngwa North\n";
-
 $response .= "7. Isiala-Ngwa South\n";
-
 $response .= "8. Isukwuato\n";
-
 $response .= "9. Obi-Ngwa\n";
-
 $response .= "10. Ohafia\n";
-
 $response .= "11. Osisioma-Ngwa\n";
-
 $response .= "12. Ugwunagbo\n";
-
 $response .= "13. Ukwa west\n";
-
 $response .= "14. Ukwa east\n";
-
 $response .= "15. Umu Nneochi\n";
-
 $response .= "16. Umuahia South\n";
-
 $response .= "17. Umuahia North\n";
-
 }
-
-
 
 elseif ($text == "1*1*1*1") {
 
 // To show all wards aba north
-
 $response = "CON select WARD in aba North \n ";
-
 $response .= "1. EZIAMA\n";
-
 $response .= "2. INDUSTRIAL AREA\n";
-
 $response .= "3. UMUOGOR\n";
-
 $response .= "4. OSUSU 1\n";
-
 $response .= "5. OSUSU 2\n";
-
 $response .= "6. ST. EUGENES BY OKIGWE RD\n";
-
 $response .= "7. URATTA\n";
-
 $response .= "8. OLD ABA GRA\n";
-
 $response .= "9. UMUOLA\n";
-
 $response .= "10. ARIARIA\n";
-
 $response .= "11. OGBOR\n";
-
 }
-
-
 
 elseif ($text == "1*1*1*1*1") {
 
 $response = "CON select the last 3 codes of your PU \n";
-
 $response .= "1. 001 \n";
-
 $response .= "2. 002 \n";
-
 $response .= "3. 003 \n";
-
 $response .= "4. 004 \n";
-
 $response .= "5. 006 \n";
-
 $response .= "6. 006 \n";
-
 $response .= "7. 007 \n";
-
 $response .= "8. 008 \n";
-
 $response .= "9. 009 \n";
-
 $response .= "10. 010 \n";
-
 $response .= "11. 011 \n";
-
 }
-
-
 
 // this for the amuzu
 
 elseif ($text == "1*1*1*1*1*1"){
-
 $response .= "END Your voting point is Omugo Hall";
-
 }
-
-
 
 else if ($text == "1*1*1*1*1*2"){
-
 $response .= "END Your voting point is Community School Umuogwu";
-
 }
-
 elseif ($text == "1*1*1*1*1*3"){
-
 $response .= "END Your voting point is Community School Umuebee";
 
 }
