@@ -559,8 +559,6 @@ $response .= "11. okanu ohoafia\n";
 
 }
 
-
-
 elseif($text == "1*1*1*11"){
 
 $response = "CON select WARD in OSISIOMA\n ";
@@ -621,8 +619,6 @@ $response .= "13.\n";
 
 }
 
-
-
 elseif($text == "1*1*1*13"){
 
 $response = "CON select WARD in ukwa west\n ";
@@ -676,8 +672,6 @@ $response .= "9. ozaa west\n";
 $response .= "10. ozaa ukwu\n"; 
 
 }
-
-
 
 elseif($text == "1*1*1*15"){
 
@@ -733,11 +727,7 @@ $response .= "8. omaegwu\n" ;
 
 $response .= "9. ubakala\n" ;
 
-
-
 }
-
-
 
 elseif($text == "1*1*1*17"){
 
@@ -839,15 +829,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*2*2"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*2*3"){
 
@@ -949,15 +935,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*2*16"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*2*17"){
 
@@ -965,29 +947,21 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*2*18"){
 
 $response = "END "
 
 }
-
 elseif($text == "1*1*2*19"){
 
 $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*2*20"){
 
 $response = "END "
-
 }
-
-
 
 elseif($text == "1*1*2*21"){
 
@@ -1003,15 +977,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*2*23"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*2*24"){
 
@@ -1099,15 +1069,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*2"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*3*3"){
 
@@ -1115,23 +1081,16 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*4"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*1*3*5"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*3*6"){
 
@@ -1139,23 +1098,17 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*7"){
 
 $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*8"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*3*9"){
 
@@ -1177,15 +1130,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*12"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*3*13"){
 
@@ -1193,15 +1142,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*14"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*3*15"){
 
@@ -1209,23 +1154,17 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*16"){
 
 $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*17"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*3*18"){
 
@@ -1238,8 +1177,6 @@ elseif($text == "1*1*3*19"){
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*3*20"){
 
@@ -1263,15 +1200,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*23"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*3*24"){
 
@@ -1279,15 +1212,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*25"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*3*26"){
 
@@ -1295,23 +1224,17 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*27"){
 
 $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*28"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*3*29"){
 
@@ -1325,24 +1248,17 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*31"){
 
 $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*3*32"){
 
 $response = "END "
 
 } */
-
-
-
 
 
 else if ( $text == "1*1*4" ) {
@@ -1397,23 +1313,17 @@ $response .= "22. Ayamelum";
 
 }
 
-
-
 /* elseif ($text == "1*1*4*1") {
 
 $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*4*2"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*4*3"){
 
@@ -1445,23 +1355,17 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*4*7"){
 
 $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*4*8"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*4*9"){
 
@@ -1475,15 +1379,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*4*11"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*4*12"){
 
@@ -1491,15 +1391,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*4*13"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*4*14"){
 
@@ -1507,15 +1403,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*4*15"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*4*16"){
 
@@ -1523,15 +1415,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*4*17"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*4*18"){
 
@@ -1545,15 +1433,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*4*20"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*1*4*21"){
 
@@ -1561,15 +1445,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*1*4*22"){
 
 $response = "END "
 
 } */
-
-
 
 /* else if ( $text == "1*2*1" ) {
 
@@ -1629,15 +1509,11 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*2*1*2"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*2*1*3"){
 
@@ -1645,47 +1521,32 @@ $response = "END "
 
 }
 
-
-
 elseif($text == "1*2*1*4"){
 
 $response = "END "
 
 }
 
-
-
 elseif($text == "1*2*1*5"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*6"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*7"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*8"){
 
 $response = "END "
 
 }
-
-
 
 elseif($text == "1*2*1*9"){
 
@@ -1698,65 +1559,42 @@ elseif($text == "1*2*1*10"){
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*11"){
 
 $response = "END "
 
 }
 
-
-
 elseif($text == "1*2*1*12"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*13"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*14"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*15"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*16"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*17"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*18"){
 
 $response = "END "
@@ -1768,33 +1606,21 @@ elseif($text == "1*2*1*19"){
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*20"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*21"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*1*22"){
 
 $response = "END "
 
 }
-
-
-
 else if ( $text == "1*2*2" ) {
 
 // Show all LGA in Bayelsa
@@ -1824,71 +1650,41 @@ elseif ($text == "1*2*2*1") {
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*2*2"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*2*3"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*2*4"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*2*5"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*2*6"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*2*7"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*2*8"){
 
 $response = "END "
 
 }
-
-
-
-
-
-
-
-
-
 else if ( $text == "1*2*3" ) {
 
 // Show all LGA in Benue
@@ -1954,65 +1750,41 @@ elseif ($text == "1*2*3*1") {
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*2"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*3"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*4"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*5"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*6"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*7"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*8"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*9"){
 
 $response = "END "
@@ -2024,65 +1796,41 @@ elseif($text == "1*2*3*10"){
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*11"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*12"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*13"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*14"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*15"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*16"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*17"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*18"){
 
 $response = "END "
@@ -2094,39 +1842,26 @@ elseif($text == "1*2*3*19"){
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*20"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*21"){
 
 $response = "END "
 
 }
-
-
-
 elseif($text == "1*2*3*22"){
 
 $response = "END "
 
 }
-
-
-
 else if ( $text == "1*2*4" ) {
 
 // Show all LGA in Bornu
 
 $response .= "CON Select your LGA";
-
 $response .= "1. Abadam";
 
 $response .= "2. Askira/Uba";
@@ -3726,667 +3461,340 @@ else if ( $text == "1*5*3" ) {
 // Show all LGA in Imo
 
 $response = "CON Select your LGA\n";
-
 $response .= "1. Aboh-Mbaise\n";
-
 $response .= "2. Ahiazu-Mbaise\n";
-
 $response .= "3. Ehime-Mbano\n";
-
 $response .= "4. Ezinihitte\n";
-
 $response .= "5. Ideato North\n";
-
 $response .= "6. Ideato South\n";
-
 $response .= "7. Ihitte/Uboma\n";
-
 $response .= "8. Ikeduru\n";
-
 $response .= "9. Isiala Mbano\n";
-
 $response .= "10. Isu\n";
-
 $response .= "11. Mbaitoli\n";
-
 $response .= "12. Ngor-Okpala\n";
-
 $response .= "13. Njaba\n";
-
 $response .= "14. Nkwerre\n";
-
 $response .= "15. Nwangele\n";
-
 $response .= "16. Obowo\n";
-
 $response .= "17. Oguta\n";
-
 $response .= "18. Ohaji/Egbema\n";
-
 $response .= "19. Okigwe\n";
-
 $response .= "20. Onuimo\n";
-
 $response .= "21. Orlu\n";
-
 $response .= "22. Orsu\n";
-
 $response .= "23. Oru East\n";
-
 $response .= "24. Oru West\n";
-
 $response .= "25. Owerri-Municipal\n";
-
 $response .= "26. Owerri North\n";
-
 $response .= "27. Owerri West\n";
-
 $response .= "00. CHECK FOR DANGER ALERT IN IMO\n"; 
-
 }
-
 elseif ($text == "1*5*3*00"){
-
 $response .= "END Sorry, there is no current danger alert, check later.\n Thank you \n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
-
 }
-
 else if ($text == "1*5*3*1") { 
-
 $response = "CON WARDS IN ABOH MBAISE\n";
-
 $response .= "1. Amuzu \n";
-
 $response .= "2. enyiogugu\n";
-
 $response .= "3. ibeku\n";
-
 $response .= "4. lagwa\n";
-
 $response .= "5. lorji\n";
-
 $response .= "6. mbutu\n";
-
 $response .= "7. Nguru-ahiato\n";
-
 $response .= "8. Nguru-nweke\n";
-
 $response .= "9. Nguru-Nwenkwo\n";
-
 $response .= "10. Umuhu\n";
-
 $response .= "11. Uvuru\n";
-
 $response .= "12. Uvuru 2\n";
-
 }
-
 elseif ($text == "1*5*3*1*1") {
-
 $response = "CON select the last 3 codes of your PU \n";
-
 $response .= "1. 001 \n";
-
 $response .= "2. 002 \n";
-
 $response .= "3. 003 \n";
-
 $response .= "4. 004 \n";
-
 $response .= "5. 006 \n";
-
 $response .= "6. 006 \n";
-
 $response .= "7. 007 \n";
-
 $response .= "8. 008 \n";
-
 $response .= "9. 009 \n";
-
 $response .= "10. 010 \n";
-
 $response .= "11. 011 \n";
-
 }
-
 // this for the amuzu
-
 elseif ($text == "1*5*3*1*1*1"){
-
 $response .= "END Your voting point is Umuogu Hall.\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*1*2"){
-
 $response .= "END Your voting point is Community School Umuogwu.\n \nVote with Respectability.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*1*3"){
-
 $response .= "END Your voting point is Community School UUmuebee.\n \nVote not Fight.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*1*4"){
-
 $response .= "END Your voting point is Nriukwu Civil Hall.\n \nDon't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*1*5"){
-
 $response .= "END Your voting point is Central School Amator.\n \nDon't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*1*6"){
-
 $response .= "END Your voting point is Central School Amator.\n \nDon't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*1*7"){
-
 $response .= "END Your voting point is Town School Amuzu.\n \nDon't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*1*8"){
-
 $response .= "END Your voting point is Central town Amuzu\n \n Do well to vote with knowledge \n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*1*9"){
-
 $response = "END Your voting point is Central School Nriukwu\n \n Vote not Fight. \n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*1*10"){
-
 $response .= "END Your voting point is Umuodaa Village Hall\n \n Vote with Respectability.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*1*11"){
-
 $response .= "END Your voting point is Amaiyi Nriukwu (St John)\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
-
 }
 
 // all about amuzu ward
 
-
-
 // this is for enyiogugu
 
 elseif ($text == "1*5*3*1*2") {
-
 $response = "CON select the last 3 codes of your PU \n";
-
 $response .= "1. 001 \n";
-
 $response .= "2. 002 \n";
-
 $response .= "3. 003 \n";
-
 $response .= "4. 004 \n";
-
 $response .= "5. 006 \n";
-
 $response .= "6. 006 \n";
-
 $response .= "7. 007 \n";
-
 $response .= "8. 008 \n";
-
 $response .= "9. 009 \n";
-
 $response .= "10. 010 \n";
-
 $response .= "11. 011 \n";
-
 $response .= "12. 012 \n";
-
 $response .= "13. 013 \n";
-
 $response .= "14. 014 \n";
-
 $response .= "15. 015 \n";
-
 $response .= "16. 016 \n";
-
 $response .= "17. 017 \n";
-
 }
-
 elseif ($text == "1*5*3*1*2*1"){
-
 $response .= "END Your voting point is Aladinma Umuelem Hall\n \nVote with Respectability.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*2"){
-
 $response .= "END Your voting point is Okwuaku Hall\n \nVote not fight\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*3"){
-
 $response .= "END Your voting point is Umunkwo Village hall\n \n Do well to vote with knowledge\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*4"){
-
 $response .= "END Your voting point is Ibeku Hall\n \n Do well to vote with knowledge\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*5"){
-
 $response .= "END Your voting point is Community School Eziala\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*6"){
-
 $response .= "END Your voting point is Eziala Hall\n \n Don't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*7"){
-
 $response .= "END Your voting point is Community School Umugaragu\n \n Don't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*8"){
-
 $response .= "END Your voting point is Ibeku Hall\n \n Do well to vote with knowledge\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*9"){
-
 $response .= "END Your voting point is Umueziukwu Village Hall\n \n Vote not fight\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*10"){
-
 $response .= "END Your voting point is Orie Umueze Hall\n \nVote responsibly \n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*11"){
-
 $response .= "END Your voting point is Community School Oboama\n \n Do well to vote with knowledge\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*12"){
-
 $response .= "END Your voting point is Amma-Iyala Hall\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*13"){
-
 $response .= "END Your voting point is Village Square (Opp. Block Rosary Hall)\n \nVote not Fight.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*14"){
-
 $response .= "END Your voting point is Anokam Hall\n \n Don't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*15"){
-
 $response .= "END Your voting point is Community School Egbelu\n \n Do well to vote with knowledge\n#Decide2019";
-
 } 
-
 elseif ($text == "1*5*3*1*2*16"){
-
 $response .= "END Your voting point is Umuoye Hall\n \nVote responsibly \n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*2*17"){
-
 $response .= "END Your voting point is Central School Egbelu Umuhu\n \n Do well to vote with knowledge\n#Decide2019";
-
 }
-
 // all about enyiogugu
 
-
-
 // this is for ward 3
-
 elseif ($text == "1*5*3*1*3") {
-
 $response = "CON select the last 3 codes of your PU \n";
-
 $response .= "1. 001 \n";
-
 $response .= "2. 002 \n";
-
 $response .= "3. 003 \n";
-
 $response .= "4. 004 \n";
-
 $response .= "5. 006 \n";
-
 $response .= "6. 006 \n";
-
 $response .= "7. 007 \n";
-
 $response .= "8. 008 \n";
-
 }
-
-
-
 elseif ($text == "1*5*3*1*3*1"){
-
 $response .= "END Your voting point is Oborji Town Hall\n \nVote responsibly \n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*3*2"){
-
 $response .= "END Your voting point is Akuma Town Hall\n \nVote responsibly \n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*3*3"){
-
 $response .= "END Your voting point is Town School Ibeku\n \n Don't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*3*4"){
-
 $response .= "END Your voting point is Community School Ibeku\n \n Don't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*3*5"){
-
 $response .= "END Your voting point is Umuba Town Hall\n \n Do well to vote with knowledge\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*3*6"){
-
 $response .= "END Your voting point is Obom Square, Akuma\n \n Do well to vote with knowledge\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*3*7"){
-
 $response .= "END Your voting point is Eke Ibeku Market Square\n \nVote not Fight.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*3*8"){
-
 $response .= "END Your voting point is Umuokwu Town Hall\n \nVote not Fight.\n#Decide2019";
-
 }
-
 // all about ward 3
-
-
 
 //This is for ward 4
 
 elseif ($text == "1*5*3*1*4") {
-
 $response = "CON select the last 3 codes of your PU \n";
-
 $response .= "1. 001 \n";
-
 $response .= "2. 002 \n";
-
 $response .= "3. 003 \n";
-
 $response .= "4. 004 \n";
-
 $response .= "5. 006 \n";
-
 $response .= "6. 006 \n";
-
 $response .= "7. 007 \n";
-
 }
-
 elseif ($text == "1*5*3*1*4*1"){
-
 $response .= "END Your voting point is Group School Lagwa\n \nVote responsibly \n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*4*2"){
-
 $response .= "END Your voting point is Obo Town Hall\n \nVote not Fight.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*4*3"){
-
 $response .= "END Your voting point is Central School Okwuato\n \nVote not Fight.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*4*4"){
-
 $response .= "END Your voting point is Amaubeagba Hall\n \n Don't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*4*5"){
-
 $response .= "END Your voting point is Umuabazu Town Hall\n \nVote responsibly \n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*4*6"){
-
 $response .= "END Your voting point is Umunoke Town Hall\n \n Don't Sell your Vote\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*4*7"){
-
 $response .= "END Your voting point is Okwuato Town Hall\n \n Don't Sell your Vote\n#Decide2019";
-
 }
 
 // All about ward 4
 
-
-
 // This is for ward 5
-
 elseif ($text == "1*5*3*1*5") {
-
 $response = "CON select the last 3 codes of your PU \n";
-
 $response .= "1. 001 \n";
-
 $response .= "2. 002 \n";
-
 $response .= "3. 003 \n";
-
 $response .= "4. 004 \n";
-
 $response .= "5. 006 \n";
-
 $response .= "6. 006 \n";
-
 }
-
 elseif ($text == "1*5*3*1*5*1"){
-
 $response .= "END Your voting point is Community School Lorji I\n \nVote responsibly \n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*5*2"){
-
 $response .= "END Your voting point is Community School Lorji II\n \nVote not Fight.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*5*3"){
-
 $response .= "END Your voting point is Community School Lorji III\n \nVote not Fight.\n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*5*4"){
-
 $pulling = "Central School Lorji I";
-
 $response .= "END Your voting point is Umuabazu Town Hall\n \nVote responsibly \n#Decide2019";
-
 }
-
 elseif ($text == "1*5*3*1*5*5"){
-
 $pulling = "Central School Lorji II";
-
 $response == "END Your voting point is $pulling";
-
 }
-
 elseif ($text == "1*5*3*1*5*6"){
-
 $pulling = "Central School Lorji III";
-
 $response == "END Your voting point is $pulling";
-
 }
-
 // all about ward 5
-
-
 
 // This is for ward 6
 
 elseif ($text == "1*5*3*1*6") {
-
 $response = "CON select the last 3 codes of your PU \n";
-
 $response .= "1. 001 \n";
-
 $response .= "2. 002 \n";
-
 $response .= "3. 003 \n";
-
 $response .= "4. 004 \n";
-
 $response .= "5. 006 \n";
-
 $response .= "6. 006 \n";
-
 $response .= "7. 007 \n";
-
 $response .= "8. 008 \n";
-
 $response .= "9. 009 \n";
-
 $response .= "10. 010 \n";
-
 $response .= "11. 011 \n";
-
 $response .= "12. 012 \n";
-
 $response .= "13. 013 \n";
-
 $response .= "14. 014 \n";
-
 $response .= "15. 015 \n";
-
 $response .= "16. 016 \n";
-
 $response .= "17. 017 \n";
-
 $response .= "18. 018 \n";
-
 }
-
 elseif ($text == "1*5*3*1*6*1"){
-
 $pulling = "Isiala Hall";
-
 $response == "END Your voting point is $pulling";
-
 }
-
 elseif ($text == "1*5*3*1*6*2"){
-
 $pulling = "Community School Ekenguru";
-
 $response == "END Your voting point is $pulling";
-
 }
-
 elseif ($text == "1*5*3*1*6*3"){
-
 $pulling = "Awaka Hall";
-
 $response == "END Your voting point is $pulling";
-
 }
-
 elseif ($text == "1*5*3*1*6*4"){
-
 $pulling = "Amawo Town Hall";
-
 $response == "END Your voting point is $pulling";
-
 }
-
 elseif ($text == "1*5*3*1*6*5"){
-
 $pulling = "Community School Mbutu";
-
 $response == "END Your voting point is $pulling";
-
 }
-
 elseif ($text == "1*5*3*1*6*6"){
-
 $pulling = "Ozara Village Hall";
-
 $response .= "END Your voting point is $pulling";
-
 }
-
 elseif ($text == "1*5*3*1*6*7"){
-
 $pulling = "Central School, Mbutu";
-
 $response == "END Your voting point is $pulling";
-
 }
-
 elseif ($text == "1*5*3*1*6*8"){
-
 $pulling = "Ubahi Village Square I";
-
 $response == "END Your voting point is $pulling";
-
 }
 
 elseif ($text == "1*5*3*1*6*9"){
