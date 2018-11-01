@@ -27,14 +27,12 @@ else if ( $text == "1" ) {
 }
  else if($text == "2") {
   // Displaying candidate information
-  $response = "CON Choose candidate";
+  $response = "CON Choose candidate \n";
   $response .= "1. Fela Durotoye \n";
   $response .= "2. Donald Duke \n";
   $response .= "3. Muhammadu Buhari \n";
   $response .= "4. Kingsley Moghalu \n";
-  $response .= "5. Candidate 1 \n";
-  $response .= "6. Candidate 1 \n";
-  $response .= "7. Candidate 1 \n";
+  
  }
  else if($text == "2*1"){
  // Display information of Fela Durotoye
