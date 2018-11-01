@@ -28,13 +28,33 @@ else if ( $text == "1" ) {
  else if($text == "2") {
   // Displaying candidate information
   $response = "CON Choose candidate";
-  $response .= "1. Candidate 1 \n";
-  $response .= "2. Candidate 1 \n";
-  $response .= "3. Candidate 1 \n";
-  $response .= "4. Candidate 1 \n";
+  $response .= "1. Fela Durotoye \n";
+  $response .= "2. Donald Duke \n";
+  $response .= "3. Muhammadu Buhari \n";
+  $response .= "4. Kingsley Moghalu \n";
   $response .= "5. Candidate 1 \n";
   $response .= "6. Candidate 1 \n";
   $response .= "7. Candidate 1 \n";
+ }
+ else if($text == "2*1"){
+ // Display information of Fela Durotoye
+ $response .= "END Fela is a 46 years old Public speaker and business strategist of the part ANN(alliance of new nigeria) \n -BSc. Computer Science and Economics, and MBA/MSc.Business Strategy from Obafemi Awolowo University \n Look up the Mushin Makeover Project"     
+ }
+ else if($text == "2*2"){
+ // Display information of Donald Duke
+ $response .= "END Donald is a 56 years old of the party SDP(Social Democratic Party) \n -LLB from Ahmadu Bello University, \n LLM from the University of Pennsylvania \n -Former Commissioner for Finance and Planning \n -Former Governor of Cross River \n -Initiated the Tinapa Free Zone & Resort, and the Calabar Carnival"     
+ }
+ else if($text == "2*3"){
+ // Display information of Donald Duke
+ $response .= "END Buhari is a 76 years old of party APC(All Progessive Congress)\n -LLB from Ahmadu Bello University, \n LLM from the University of Pennsylvania \n -Former Commissioner for Finance and Planning \n -Former Governor of Cross River \n -Initiated the Tinapa Free Zone & Resort, and the Calabar Carnival"     
+ }
+else if($text == "2*4"){
+ // Display information of Kingsley Moghalu
+ $response .= "END Kingsley is a 55 years old of YPP(Young People's Party)\n Professor of Practice in International Business and Public Policy at Tufts University\n
+-Attended UNN and LSE (PhD)\n
+-President of the Institute of Governance and Economic Transformation\n
+-Former United Nations official\n
+-Former CBN deputy governor"     
  }
  else if($text == "1*1") {
   // Show all states in A
