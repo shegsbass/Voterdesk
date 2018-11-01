@@ -3487,7 +3487,7 @@ $response .= "23. Oru East\n";
 $response .= "24. Oru West\n";
 $response .= "25. Owerri-Municipal\n";
 $response .= "26. Owerri North\n";
-$response .= "27. Owerri West\n";
+$response .= "27. Owerri West\n\n";
 $response .= "00. CHECK FOR DANGER ALERT IN IMO\n"; 
 }
 elseif ($text == "1*5*3*00"){
