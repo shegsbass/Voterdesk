@@ -5573,8 +5573,6 @@ $response .= "13. 013 \n";
 
 $response .= "14. 014 \n"; 
 
-$response .= "15. 015 \n"; 
-
 }
 
 
@@ -5637,37 +5635,31 @@ $response = "END Your voting point is Town Hall Nkwo Umuoba II\n \n Vote not Fig
 
 elseif ($text == "1*5*3*26*9*10"){
 
-$response .= "END Your voting point is Okwu Village Square\n \n Vote with Respectability.\n#Decide2019";
+$response .= "END Your voting point is  Community School Okwu Uratta I\n \n Vote with Respectability.\n#Decide2019";
 
 }
 
 elseif ($text == "1*5*3*26*9*11"){
 
-$response .= "END Your voting point is Community School Okwu Uratta I\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+$response .= "END Your voting point is Community School Okwu Uratta II\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 
 }
 
 elseif ($text == "1*5*3*26*9*12"){
 
-$response .= "END Your voting point is Community School Okwu Uratta II\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+$response .= "END Your voting point is Okwu Village Square\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 
 }
 
 elseif ($text == "1*5*3*26*9*13"){
 
-$response .= "END Your voting point is Okwu Village Square\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+$response .= "END Your voting point is Fair Child Nursery School I\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 
 }
 
 elseif ($text == "1*5*3*26*9*14"){
 
-$response .= "END Your voting point is Fair Child Nursery School I\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
-
-}
-
-elseif ($text == "1*5*3*26*9*15"){
-
-$response .= "END Your voting point Fair Child Nursery School II \n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
+$response .= "END Your voting point is Fair Child Nursery School II\n \nDo well to Communicate truth throughout the electroneering processes.\n#Decide2019";
 
 }
 
