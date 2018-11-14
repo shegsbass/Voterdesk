@@ -9,6 +9,7 @@ $serviceCode = $_POST["serviceCode"];
 $phoneNumber = $_POST["phoneNumber"];
 $text = $_POST["text"];
 
+/**
 $database ="votersdesk";
 $pass = "";
 $username = "root";
@@ -49,6 +50,8 @@ if(isset($_POST['message'])){
 //updating
 
 echo $message;
+
+**/
 
 
 if ( $text == "" ) {
