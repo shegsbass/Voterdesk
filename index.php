@@ -17,6 +17,7 @@ if ( $text == "" ) {
 $response = "CON What would you want to check \n";
 $response .= "1. Polling Centers \n";
 $response .= "2. Candidate Info";
+$response .= $phoneNumber;
 }
 
 else if ( $text == "1" ) {
