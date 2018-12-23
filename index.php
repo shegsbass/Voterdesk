@@ -16,9 +16,8 @@ if ( $text == "" ) {
 // This is the first request. Note how we start the response with CON
 $response = "CON What would you want to check \n";
 $response .= "1. Polling Centers \n";
-$response .= "2. Candidate Info";
+$response .= "2. Candidate Info\n";
 $response .= "$phoneNumber";
-$response .= $serviceCode; 
 }
 
 else if ( $text == "1" ) {
